@@ -1,0 +1,58 @@
+.section {
+  background: #3e3145;
+}
+
+.section-sobre{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-sobre p{
+  text-align: center;
+  max-width: 80ch;
+}
+
+.section-sobre h1,
+.section-sobre h2{
+  margin: 60px 0px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.caixa {
+  background: #271f2b;
+  padding: 40px;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 4px solid #634172;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.caixa::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#271f2b, #634172);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.caixa .caixa-titulo {
+  text-transform: uppercase;
+}

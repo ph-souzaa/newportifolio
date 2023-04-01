@@ -1,0 +1,62 @@
+.projetos{
+  background: #3e3145;
+  color: #fff;
+}
+
+.section-projetos{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-projetos h1{
+  margin: 50px 0;
+}
+
+.projeto-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.projeto-caixa{
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #271f2b;
+  position: relative;
+}
+
+.projeto-caixa::before{
+  content: '';
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#271f2b, #634172);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.projeto-caixa a img{
+  width: 385px;
+  height: 212px;
+  object-fit: cover;
+}
+
+.projeto-caixa a{
+  text-decoration: none;
+}
+
+.projeto-caixa p{
+  color: #fff;
+  padding: 5px 5px 0;
+  text-align: center;
+}
