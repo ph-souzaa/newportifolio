@@ -38,6 +38,7 @@
   border-radius: 4px;
   position: relative;
   grid-column: 2;
+  border-bottom: 4px solid #634172;
 }
 
 .empresa::before{

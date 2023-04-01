@@ -32,6 +32,7 @@
   border-radius: 4px;
   background-color: #271f2b;
   position: relative;
+  border-bottom:  4px solid #634172;
 }
 
 .projeto-caixa::before{
