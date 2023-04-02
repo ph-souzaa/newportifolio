@@ -35,6 +35,10 @@
   border-bottom:  4px solid #634172;
 }
 
+.projeto-caixa:hover{
+  background-color: #533b5f;
+}
+
 .projeto-caixa::before{
   content: '';
   display: block;
@@ -60,4 +64,8 @@
   color: #fff;
   padding: 5px 5px 0;
   text-align: center;
+}
+
+.projeto-caixa p:hover{
+  color: #c3c3c3;
 }
