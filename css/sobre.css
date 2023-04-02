@@ -34,13 +34,22 @@
 }
 
 .caixa {
+  width: 130px;
+  height: 168px;
+  padding: 10px;
   background: #271f2b;
-  padding: 40px;
   border-radius: 4px 4px 0px 0px;
   border-bottom: 4px solid #634172;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   position: relative;
+}
+
+.caixa img {
+  width: 50px;
+  height: 50px;
 }
 
 .caixa::before{

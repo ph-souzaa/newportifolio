@@ -30,11 +30,10 @@
 .main-texto h2{
   color: #c3c3c3;
   font-size: 2rem;
-  
+  margin-bottom: 20px;
 }
 
-.main-background button{
-  margin-top: 20px;
+.main-background a{
   border: none;
   padding: 10px 30px;
   background: #271f2b;
@@ -43,9 +42,11 @@
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
-.main-background button:hover{
+.main-background a:hover{
   color: #c3c3c3;
   cursor: pointer;
   background: #533b5f;
